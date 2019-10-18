@@ -1,0 +1,19 @@
+{
+  "name": "codeceptjs-tips",
+  "version": "1.0.0",
+  "description": "This repo shows you examples on using CodeceptJS with many simple use cases",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "codeceptjs",
+    "tips"
+  ],
+  "author": "PeterNgTr",
+  "license": "ISC",
+  "dependencies": {
+    "codeceptjs": "^2.3.3",
+    "puppeteer": "1.19.0"
+  }
+}
