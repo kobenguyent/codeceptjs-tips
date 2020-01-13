@@ -4,7 +4,7 @@
   "description": "This repo shows you examples on using CodeceptJS with many simple use cases",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx codeceptjs run-workers 2"
   },
   "keywords": [
     "codeceptjs",
@@ -13,7 +13,7 @@
   "author": "PeterNgTr",
   "license": "ISC",
   "dependencies": {
-    "codeceptjs": "^2.3.3",
-    "puppeteer": "1.19.0"
+    "codeceptjs": "2.4.1",
+    "puppeteer": "2.0.0"
   }
 }
