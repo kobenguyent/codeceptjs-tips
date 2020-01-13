@@ -4,7 +4,7 @@ exports.config = {
   helpers: {
     Puppeteer: {
       url: 'http://the-internet.herokuapp.com/',
-      show: true
+      show: false
     },
     FileSystem: {}
   },
