@@ -17,5 +17,5 @@ steps:
 
 - script: |
     npm install
-    npm test
+    npx codeceptjs run --grep Upload
   displayName: 'Run tests with codeceptjs puppeteer'
