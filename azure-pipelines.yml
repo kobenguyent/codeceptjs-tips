@@ -12,10 +12,10 @@ pool:
 steps:
 - task: NodeTool@0
   inputs:
-    versionSpec: '12.x'
+    versionSpec: '14.x'
   displayName: 'Install Node.js'
 
 - script: |
     npm install
     npx codeceptjs run --grep Upload
-  displayName: 'Run tests with codeceptjs puppeteer'
+  displayName: 'Run tests with codeceptjs playwright'
